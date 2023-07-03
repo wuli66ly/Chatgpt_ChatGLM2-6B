@@ -16,7 +16,9 @@
 
 2.pip安装requirements.txt所需各种包
 
-3.从这里（https://cloud.tsinghua.edu.cn/d/674208019e314311ab5c/）手动下载模型参数文件，并将下载的文件替换到本地的 chatglm2-6b 目录下。
+3.从地址手动下载模型参数文件，并将下载的文件替换到本地的 chatglm2-6b 目录下。
+
+模型地址：（https://cloud.tsinghua.edu.cn/d/674208019e314311ab5c/）
 
 将模型下载到本地之后，将以上代码中的 THUDM/chatglm2-6b 替换为你本地的 chatglm2-6b 文件夹的路径，即可从本地加载模型。
 
@@ -28,3 +30,7 @@
 2.python webui.py
 
 体验网页端交互。
+
+## FAQ
+
+过程有什么问题随时发起issue
